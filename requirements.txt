@@ -1,0 +1,7 @@
+ultralytics==8.0.111  # YOLOv8 for object detection
+gradio==3.39.0        # Gradio for the UI
+Pillow==9.3.0         # Image processing
+numpy==1.26.0         # Numerical computations
+opencv-python==4.8.0  # OpenCV for image manipulation
+python-dotenv==1.0.0  # To load environment variables
+requests==2.31.0      # For API calls
