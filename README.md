@@ -11,6 +11,10 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 - **Audio Output**: Converts GPT-generated descriptions to audio using Azure TTS.
 
 ---
+![UI Screenshot](results/result.png)
+![UI Screenshot](results/result_describe.png)
+
+
 
 ## Usage
 
