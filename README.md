@@ -12,9 +12,6 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 
 ---
 ![UI Screenshot](results/result.png)
-![UI Screenshot](results/result_describe.png)
-
-
 
 ## Usage
 
@@ -29,6 +26,7 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 - Capture Button: Capture the current frame for analysis.
 - Send to GPT: Generate descriptive analysis of detected objects.
 - Audio Output: Listen to the audio description of the detected objects.
+![UI Screenshot](results/result_describe.png)
 
 ## Project Structure
 ```
