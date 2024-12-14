@@ -11,7 +11,29 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 - **Audio Output**: Converts GPT-generated descriptions to audio using Azure TTS.
 
 ---
-![UI Screenshot](results/result.png)
+![UI Screenshot](results/result.png)<br>
+![UI Screenshot](results/result_describe.png)
+
+## Installation
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jihyeon26/Vision_detect_project.git
+   cd vision-detection-project
+   ```
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Create a .env file in the project root directory with the following content:
+    ```env
+    OPENAI_ENDPOINT=https://your-openai-endpoint
+    OPENAI_API_KEY=your_openai_api_key
+    DEPLOYMENT_NAME=your-deployment-name
+    SPEECH_ENDPOINT=https://your-speech-endpoint
+    SPEECH_API_KEY=your_speech_api_key
+    ```
 
 ## Usage
 
@@ -26,7 +48,6 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 - Capture Button: Capture the current frame for analysis.
 - Send to GPT: Generate descriptive analysis of detected objects.
 - Audio Output: Listen to the audio description of the detected objects.
-![UI Screenshot](results/result_describe.png)
 
 ## Project Structure
 ```
