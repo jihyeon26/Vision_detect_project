@@ -1,7 +1,7 @@
 # Vision Detection Project
 
 This project uses the YOLOv8 model for real-time object detection and integrates it with Microsoft Azure services. The system also provides descriptive analysis of detected objects using OpenAI GPT and generates audio output via Azure Text-to-Speech (TTS).
-
+![UI Screenshot](results/result.png)<br>
 ---
 
 ## Features
@@ -11,7 +11,7 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 - **Audio Output**: Converts GPT-generated descriptions to audio using Azure TTS.
 
 ---
-![UI Screenshot](results/result.png)<br>
+
 ![UI Screenshot](results/result_describe.png)
 
 ## Installation
@@ -20,7 +20,7 @@ This project uses the YOLOv8 model for real-time object detection and integrates
 1. Clone the repository:
    ```bash
    git clone https://github.com/jihyeon26/Vision_detect_project.git
-   cd vision-detection-project
+   cd Vision_detect_project
    ```
 2. Install dependencies:
     ```bash
