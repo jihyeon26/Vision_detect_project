@@ -1,8 +1,9 @@
 # Vision Detection Project
 
 This project uses the YOLOv8 model for real-time object detection and integrates it with Microsoft Azure services. The system also provides descriptive analysis of detected objects using OpenAI GPT and generates audio output via Azure Text-to-Speech (TTS).
-![UI Screenshot](results/result.png)<br>
+
 ---
+![UI Screenshot](results/result.png)<br>
 
 ## Features
 
